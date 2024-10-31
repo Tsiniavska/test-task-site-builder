@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Task</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./assets/fonts/Gilroy-Bold.ttf" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <!-- Header -->
+      <header class="header" id="header">
+        <div class="wrapper header-wrapper">
+          <!-- logo -->
+          <a href="/" class="logo">
+            <img src="./assets/logo.png" alt="logo" />
+          </a>
+          <!-- Navigation -->
+          <nav class="navigation" id="js-navigation">
+            <ul class="navigation-list">
+              <li>
+                <a href="#" class="navigation-link">Projects</a>
+              </li>
+              <li>
+                <a href="#" class="navigation-link">About company</a>
+              </li>
+              <li>
+                <a href="#" class="navigation-link">Cooperation</a>
+              </li>
+              <li>
+                <a href="#" class="navigation-link">Contact us</a>
+              </li>
+            </ul>
+          </nav>
+          <button type="button" class="header-button button">
+            <span>EN</span>
+          </button>
+          <!-- Burger -->
+          <button type="button" id="js-burger" class="header-burger">
+            <span class="header-burger-line"></span>
+            <span class="header-burger-line"></span>
+            <span class="header-burger-line"></span>
+          </button>
+        </div>
+      </header>
+      <!-- Banner -->
+      <section class="banner">
+        <div class="wrapper banner-wrapper">
+          <div class="banner-text">
+            <div class="banner-subtitle animated-item">
+              <span>Lorem Ipsum is simply dummy text of the printing</span>
+            </div>
+            <h2 class="banner-title animated-item">Company Name</h2>
+          </div>
+          <div class="banner-description">
+            <p class="description-text animated-item">
+              Lorem Ipsum is <br />simply dummy text of the <br />printing
+              <span class="highlight">and typesetting</span> industry.
+            </p>
+            <button type="button" class="button banner-button animated-item">
+              <span>Select property</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Main content -->
+      <main class="content">
+        <!-- Section with swiper -->
+        <section class="section">
+          <div class="wrapper section-wrapper">
+            <h1 class="section-title">Our projects</h1>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="./assets/photo-1.jpg" alt="photo" />
+                  <div class="slide-description">
+                    <div class="slide-text">
+                      <span class="slide-title">VILLA</span>
+                      <span class="slite-some-text">Lorem Ipsum</span>
+                    </div>
+                    <button type="button" class="button arrow-button">
+                      <img src="./assets/icon/right.svg" alt="arrow" />
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/photo-2.jpg" alt="photo" />
+                  <div class="slide-description">
+                    <div class="slide-text">
+                      <span class="slide-title">VILLA</span>
+                      <span class="slite-some-text">Lorem Ipsum</span>
+                    </div>
+                    <button type="button" class="button arrow-button">
+                      <img src="./assets/icon/right.svg" alt="arrow" />
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/photo-3.jpg" alt="photo" height="700px" />
+                  <div class="slide-description">
+                    <div class="slide-text">
+                      <span class="slide-title">APARTMENTS</span>
+                      <span class="slite-some-text">Lorem Ipsum</span>
+                    </div>
+                    <button type="button" class="button arrow-button">
+                      <img src="./assets/icon/right.svg" alt="arrow" />
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/photo-1.jpg" alt="photo" />
+                  <div class="slide-description">
+                    <div class="slide-text">
+                      <span class="slide-title">VILLA</span>
+                      <span class="slite-some-text">Lorem Ipsum</span>
+                    </div>
+                    <button type="button" class="button arrow-button">
+                      <img src="./assets/icon/right.svg" alt="arrow" />
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/photo-2.jpg" alt="photo" />
+                  <div class="slide-description">
+                    <div class="slide-text">
+                      <span class="slide-title">VILLA</span>
+                      <span class="slite-some-text">Lorem Ipsum</span>
+                    </div>
+                    <button type="button" class="button arrow-button">
+                      <img src="./assets/icon/right.svg" alt="arrow" />
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/photo-3.jpg" alt="photo" height="700px" />
+                  <div class="slide-description">
+                    <div class="slide-text">
+                      <span class="slide-title">APARTMENTS</span>
+                      <span class="slite-some-text">Lorem Ipsum</span>
+                    </div>
+                    <button type="button" class="button arrow-button">
+                      <img src="./assets/icon/right.svg" alt="arrow" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Navigation buttons -->
+              <div class="custom-swiper-button-prev">
+                <img
+                  src="./assets/icon/left.svg"
+                  alt="left"
+                  class="button-icon"
+                />
+              </div>
+              <div class="custom-swiper-button-next">
+                <img
+                  src="./assets/icon/right.svg"
+                  alt="right"
+                  class="button-icon"
+                />
+              </div>
+            </div>
+            <div class="section-text-block">
+              <p class="section-text">
+                <span class="white-text"
+                  >Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.</span
+                >Lorem Ipsum has been the industry's standard dummy text ever
+                since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived
+                not only five centuries, but also the leap into electronic
+                typesetting, remaining.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Last section -->
+        <section class="block">
+          <div class="wrapper block-wrapper">
+            <h3 class="block-title">More than 10 years</h3>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="./index.js"></script>
+    <!-- Script swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+:root {
+  /* Colors */
+  --c-dark-gray: #4d4d4d;
+  --c-white: #ffff;
+  --c-black: #272727;
+  --c-dark: #2c2c2c;
+  --c-yellow: #ffc711;
+  --c-blue: #93cadf;
+  --c-dark-blue: #409bb9;
+  /* Fonts */
+  --f-base: 'Gilroy', sans-serif;
+  /* Transitions */
+  --t-normal: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  /* Height */
+  --h-header: 130px;
+}
